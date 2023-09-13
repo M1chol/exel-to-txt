@@ -4,7 +4,7 @@ def load_files():
     working_dir=os.getcwd()
     pathFlag=True
     while pathFlag:
-        response = input(f"Do yo want to work in {working_dir}? Y/N\n").lower()
+        response = input(f"Do you want to work in {working_dir}? Y/N\n").lower()
         if response == 'n':
             while pathFlag:
                 try:
